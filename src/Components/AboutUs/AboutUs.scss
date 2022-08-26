@@ -7,7 +7,7 @@
     &--subtitle-2{
         font-family: 'Quicksand', sans-serif;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 120px;
     }   
 
     &__box{
@@ -36,5 +36,30 @@
     &__marcas{
         display: flex;
         justify-content: space-evenly;
+        margin-top: 100px;
     }
+
+    &__box-2{
+        display: flex;
+
+        &__storie{
+            width: 50%;
+
+            & p {
+                margin: 40px;
+                font-weight: bold;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18.5px;
+            }
+        }
+
+        &__img{
+            width: 50%;
+            height: 350px;
+            background-image: url(../../../public/images/logistica.jpg);
+            background-size: cover;
+            border-radius: 8px;
+        }
+    }
+
 }
