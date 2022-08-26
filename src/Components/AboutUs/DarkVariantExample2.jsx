@@ -1,15 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
 import samsung from '../../img/samsung.png'
 import philips from '../../img/philips.png'
-import lg from '../../img/lg.png'
+import apple from '../../img/apple.png'
 
 function DarkVariantExample2() {
     return (
-        <Carousel variant="dark" controls={false} fade interval={1500} indicators={false}>
+        <Carousel variant="dark" controls={false} interval={1500} indicators={false}>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={samsung}
+                    src={apple}
                     alt="Whirlpool"
                 />
             </Carousel.Item>
@@ -23,7 +23,7 @@ function DarkVariantExample2() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={lg}
+                    src={samsung}
                     alt="Ariston"
                 />
             </Carousel.Item>
