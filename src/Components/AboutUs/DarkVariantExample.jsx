@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel'
-import whirlpool from '../../img/whirlpool.png'
 import electrolux from '../../img/electrolux.png'
 import ariston from '../../img/ariston.png'
 import lg from '../../img/lg.png'
@@ -11,7 +10,7 @@ function DarkVariantExample() {
                 <img
                     className="d-block w-100"
                     src={lg}
-                    alt="Whirlpool"
+                    alt="lg"
                 />
             </Carousel.Item>
             <Carousel.Item>

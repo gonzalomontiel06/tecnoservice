@@ -18,14 +18,13 @@
             width: 18rem;
             position: relative;
             left: 180px;
+            color: whitesmoke;
             
             & a{
                 text-decoration: none;
                 padding: 30px;
-                color: whitesmoke;
                 font-family: 'Roboto', sans-serif;
                 font-weight: bold;
-
 
                 &:hover{
                     background-color: #8ecae6;
@@ -38,3 +37,4 @@
 .link{
     background-color: #8ecae6;
 }
+

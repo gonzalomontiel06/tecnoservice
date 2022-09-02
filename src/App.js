@@ -7,20 +7,23 @@ import { AboutUs } from './Components/AboutUs/AboutUs';
 import { Contact } from './Components/Contact/Contact';
 import { HomeView } from './Components/HomeView/HomeView';
 import { Main } from './Components/Main/Main';
+import { Footer } from './Components/Footer/Footer';
 
 
 function App() {
   return (
       <>
       <BrowserRouter>
-        <NavBar />
-        <HomeView />
-        <Main />
-        <AboutUs />
         <Routes>
           <Route path='/nosotros' element={<AboutUs />} />
           <Route path='/contacto' element={<Contact />} />
         </Routes>
+        <NavBar />
+        <HomeView />
+        <Main />
+        <AboutUs />
+        <Contact />
+        <Footer />
       </BrowserRouter>
       </>
   );

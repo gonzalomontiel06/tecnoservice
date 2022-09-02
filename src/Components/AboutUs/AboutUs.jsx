@@ -7,7 +7,7 @@ import DarkVariantExample3 from './DarkVariantExample3'
 export const AboutUs = () => {
 
     return (
-        <section className='container nosotros'>
+        <section className='container nosotros' id='nosotros'>
             <h2 className='nosotros--subtitle mt-3'>¿Quienes somos?</h2>
             
             <div className='container nosotros__box'>

@@ -1,0 +1,106 @@
+.contacto{
+    display: flex;
+    align-items: center;
+
+    &--subtitle{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 35px;
+    }
+
+    &--line{
+        border: solid 1px black;
+        width: 85%;
+        height: 0.5px;
+    }
+
+    &__box{
+        width: 30%;
+
+        & p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        &--img{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+    }
+
+    &__box__2{
+        width: 50%;
+        margin: 20px 0 0 40px;
+        
+        &__form{
+            display: flex;
+            flex-direction: column;
+
+            & label{
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            & input{
+                border-radius: 8px;
+                border: solid 4px #dee2e6;
+                width: 24rem;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                margin: 7px 0 7px;
+                font-size: 18px;
+            }
+
+            & textarea{
+                resize: none;
+                border-radius: 8px;
+                border: solid 4px #dee2e6;
+                width: 35rem;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            &--button{
+                width: 560px;
+                height: 50px;
+                background-color: transparent;
+                border: none;
+                border-top: solid 4px #dee2e6;
+                border-bottom: solid 4px #dee2e6;
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 15px;
+                text-transform: uppercase;
+                text-align: start;
+                font-size: 23px;
+                letter-spacing: 3px;
+                font-weight: bold;
+                margin-bottom: 55px;
+
+                &:hover{
+                    color: #669bbc;
+                }
+            }
+        }
+    }
+}
+
+
+
+// width: 150px;
+// height: 50px;
+// background-color: #dee2e6;
+// border: none;
+// font-family: 'Roboto', sans-serif;
+// font-weight: bold;
+// border-radius: 7px;
+// margin-top: 15px;
+// text-transform: uppercase;
+
+// &:hover{
+//     background-color: #669bbc;
+//     color: whitesmoke;
+// }
