@@ -13,19 +13,14 @@
     &__box{
         display: flex;
 
-        &__storie{
-            width: 50%;
-            
-            & p {
-                margin: 40px;
-                font-weight: bold;
-                font-family: 'Roboto', sans-serif;
-                font-size: 18.5px;
-            }
+        & p {
+            margin: 40px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18.5px;
         }
 
         &__img{
-            width: 50%;
             height: 350px;
             background-image: url(../../../public/images/tecnico1.jpg);
             background-size: cover;
@@ -42,24 +37,42 @@
     &__box-2{
         display: flex;
 
-        &__storie{
-            width: 50%;
-
-            & p {
-                margin: 40px;
-                font-weight: bold;
-                font-family: 'Roboto', sans-serif;
-                font-size: 18.5px;
-            }
+        & p {
+            margin: 40px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18.5px;
         }
 
         &__img{
-            width: 50%;
             height: 350px;
             background-image: url(../../../public/images/logistica.jpg);
             background-size: cover;
             border-radius: 8px;
         }
     }
+}
 
+@media screen and ( max-width: 576px ) {
+    .nosotros__box{
+        flex-direction: column;
+
+        &__img{
+            display: none;
+        }
+    }
+
+    .nosotros__box-2{
+        flex-direction: column;
+
+        &__img{
+            display: none;
+        }
+    }
+
+    .nosotros__marcas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

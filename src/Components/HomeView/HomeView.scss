@@ -1,5 +1,4 @@
 .main{
-    width: 100%;
     height: 25rem;
     background-image: url(../../../public/images/banner.jpg);
     background-size: cover;
@@ -21,19 +20,33 @@
 
         &__title{
             position: relative;
-            width: 38rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 350px;
         }
 
         &--title{
             color: white;
             font-family: 'Bebas Neue', cursive;
             font-size: 130px;
-            margin-top: 80px;
         }
 
         &--title-2{
             color: white;
             font-family: 'Bebas Neue', cursive;
         }
+    }
+}
+
+@media screen and ( max-width: 576px ) {
+
+    .main{
+        background-image: url(../../../public/images/banner2.jpg);
+        background-size: 200% 100%;
+    }
+
+    .main__section--title{
+        font-size: 80px;
     }
 }

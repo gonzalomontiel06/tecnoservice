@@ -15,9 +15,9 @@
         }
 
         &__nav{
-            width: 18rem;
-            position: relative;
-            left: 180px;
+            width: 20rem;
+            // position: relative;
+            // left: 180px;
             color: whitesmoke;
             
             & a{
@@ -36,5 +36,14 @@
 
 .link{
     background-color: #8ecae6;
+}
+
+@media screen and ( max-width: 576px ) {
+    .banner-div__nav{
+        width: 270px;
+        & a{
+            font-size: 14px;
+        }
+    }
 }
 

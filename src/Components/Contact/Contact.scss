@@ -88,19 +88,47 @@
     }
 }
 
+#flex{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+@media screen and ( max-width: 576px ) {
+    
+    #flex{
+        flex-direction: column;
+        align-items: center;
+    }
 
-// width: 150px;
-// height: 50px;
-// background-color: #dee2e6;
-// border: none;
-// font-family: 'Roboto', sans-serif;
-// font-weight: bold;
-// border-radius: 7px;
-// margin-top: 15px;
-// text-transform: uppercase;
+    .contacto__box{
+        width: auto;
 
-// &:hover{
-//     background-color: #669bbc;
-//     color: whitesmoke;
-// }
+        & p{
+            margin: 30px;
+        }
+
+        &--img{
+            display: none;
+        }
+
+        &__2{
+            width: 100%;
+            margin: 0;
+
+            &__form{
+
+                & input{
+                    width: auto;
+                }
+
+                & textarea{
+                    width: auto;
+                }
+
+                & button{
+                    width: auto;
+                }
+            } 
+        }
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './Components/NavBar/NavBar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { AboutUs } from './Components/AboutUs/AboutUs';
 import { Contact } from './Components/Contact/Contact';
 import { HomeView } from './Components/HomeView/HomeView';
@@ -14,10 +14,10 @@ function App() {
   return (
       <>
       <BrowserRouter>
-        <Routes>
+        {/* <Routes>
           <Route path='/nosotros' element={<AboutUs />} />
           <Route path='/contacto' element={<Contact />} />
-        </Routes>
+        </Routes> */}
         <NavBar />
         <HomeView />
         <Main />
