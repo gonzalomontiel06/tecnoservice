@@ -12,12 +12,12 @@ export const NavBar = () => {
             <Row>
                 <header className='container-fluid banner' id='banner'>
                     <div className='container banner-div'>
-                        <Col xs={4} lg={8}>
+                        <Col xs={4} lg={8} md={7}>
                             <NavLink to='/'>
                                 <div className='banner-div__icon'></div>
                             </NavLink>
                         </Col>
-                        <Col xs={8} lg={4}>
+                        <Col xs={8} lg={4} md={5}>
                             <nav className='banner-div__nav'>
                                 <Link to="nosotros" spy={true} smooth={true} offset={-25} duration={300}>
                                     quienes somos

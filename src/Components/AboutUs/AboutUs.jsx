@@ -13,14 +13,14 @@ export const AboutUs = () => {
                     <h2 className='nosotros--subtitle mt-3'>Sobre nosotros</h2>
                     
                     <Row>
-                        <div className='container nosotros__box'>
-                            <Col lg={6} xs={12}>
+                        <div className='nosotros__box'>
+                            <Col>
                                 <div className='nosotros__box__storie'>
                                     <p>Somos una empresa nueva en el mercado de prestación de servicio técnico. Contamos con un equipo de técnicos especializados en línea blanca - línea marrón - equipos móviles y o portátiles - alarmas - portones e instalaciones eléctricas.</p>
                                     <p>Trabajamos cada día para mejorar nuestras prestaciones por eso los equipos dañados son reparados con repuestos originales ya que de esa forma podemos brindar más seguridad al cliente y que cada trabajo este respaldado por la garantía de repuestos oficiales.</p>
                                 </div>
                             </Col>
-                            <Col lg={6} xs={12}>
+                            <Col>
                                 <div className='nosotros__box__img'></div>
                             </Col>
                         </div>

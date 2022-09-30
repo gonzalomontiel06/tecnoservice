@@ -11,11 +11,11 @@ export const Main = () => {
 
 
         return(
-            <Container>
-                <div className='pasos'>
+            <Container fluid>
+                <div className='container pasos'>
                     <div className='pasos__container'>
                         <Row className='borderRow'>
-                            <Col xs={6} lg={6}>
+                            <Col xs={6} lg={6} md={6}>
                                 <div className='pasos__container__art clas'>
                                     <CgNotes className='icon'/>
                                     <div className='mt-2'>
@@ -24,7 +24,7 @@ export const Main = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col xs={6} lg={6}>
+                            <Col xs={6} lg={6} md={6}>
                                 <div className='pasos__container__art'>
                                     <FaTruck className='icon'/>
                                     <div className='mt-2'>
@@ -35,7 +35,7 @@ export const Main = () => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs={6} lg={6}>
+                            <Col xs={6} lg={6} md={6}>
                                 <div className='pasos__container__art'>
                                 <GiAutoRepair className='icon'/>
                                     <div className='mt-2'>
@@ -44,7 +44,7 @@ export const Main = () => {
                                     </div>
                                 </div>                            
                             </Col>
-                            <Col xs={6} lg={6}>
+                            <Col xs={6} lg={6} md={6}>
                                 <div className='pasos__container__art'>
                                     <MdCall className='icon'/>
                                     <div className='mt-2'>
