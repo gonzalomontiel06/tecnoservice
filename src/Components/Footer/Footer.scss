@@ -7,7 +7,7 @@
     justify-content: center;
 
     &__nosotros{
-        width: 400px;
+        width: auto;
         color: white;
         position: relative;
 
@@ -63,18 +63,21 @@
 }
 
 #footerBox{
-    width: 400px;
+    width: auto;
 }
 
 #footerSize{
     display: flex;
+    width: 60%;
     position: relative;
-    left: 80px;
+    left: 60px;
+    padding: 0;
 }
 
-@media screen and ( max-width: 576px ) {
+@media screen and ( max-width: 767px ) {
 
     #footerSize{
+        width: auto;
         flex-direction: column;
         left: 0;
     }
@@ -85,5 +88,13 @@
         &__nosotros{
             width: auto;
         }
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+
+    #footerSize{
+        width: auto;
+        left: 0;
     }
 }

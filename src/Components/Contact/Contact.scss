@@ -93,7 +93,7 @@
     justify-content: space-evenly;
 }
 
-@media screen and ( max-width: 576px ) {
+@media screen and ( max-width: 767px ) {
     
     #flex{
         flex-direction: column;
@@ -129,6 +129,23 @@
                     width: auto;
                 }
             } 
+        }
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+
+    .contacto__box__2__form{
+        & input{
+            width: auto;
+        }
+
+        & textarea {
+            width: auto;
+        }
+
+        & button {
+            width: auto;
         }
     }
 }

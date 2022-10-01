@@ -7,13 +7,15 @@ import { RiHomeLine } from 'react-icons/ri'
 import { IoPeopleOutline } from 'react-icons/io5'
 import { BsInfoCircle } from 'react-icons/bs'
 import { Link } from 'react-scroll'
+import { Container } from 'react-bootstrap'
+
 
 export const Footer = () => {
     return(
-        <>
-                <div className='footer '>
+        <Container fluid style={{padding: 0}}>
+                <div className='container-fluid footer '>
                     <div id='footerSize'>
-                            <div id='footerBox'>
+                            <div id='footerBox' className='container'>
                                     <div className='container footer__nosotros mt-5'>
                                         <h3>email</h3>
                                         <div className='footer__nosotros__mail'>
@@ -33,7 +35,7 @@ export const Footer = () => {
                                             </div>
                                     </div>
                             </div>
-                            <div>
+                            <div className='container'>
                                 <div className='container footer__nosotros mt-5'>
                                     <h3>telefonos</h3>
                                     <div className='footer__nosotros__mail'>
@@ -46,7 +48,7 @@ export const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='container'>
                                 <div className='container footer__nosotros mt-5'>
                                     <h3>mapa del sitio</h3>
                                     <div className='container footer__nosotros__mail'>
@@ -74,6 +76,6 @@ export const Footer = () => {
                 <div className='container-fluid footer__copyrigth'>
                     <p>Copyright © 2021-2022 Tecnoservice S.R.L.</p>
                 </div>
-        </>
+            </Container>
     )
 }

@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and ( max-width: 576px ) {
+@media screen and ( max-width: 767px) {
     .nosotros__box{
         flex-direction: column;
 
@@ -74,5 +74,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+
+    .nosotros__box__img{
+        margin-top: 130px;
     }
 }

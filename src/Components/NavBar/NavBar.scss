@@ -38,14 +38,14 @@
     background-color: #8ecae6;
 }
 
-@media screen and ( max-width: 576px ) and ( min-width: 320px) {
+@media screen and ( max-width: 767px ) {
     
     .banner-div__nav{
         width: auto;
         
         & a{
             padding: 0;
-            margin-left: 22px;
+            margin-left: 14px;
         }
     }
 }

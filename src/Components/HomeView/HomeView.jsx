@@ -11,7 +11,7 @@ export const HomeView = () => {
                         <section className='main__section'>
                             <div className='main__section__title'>
                                 <Row>
-                                    <Col lg={12} xs={12}>
+                                    <Col lg={12} xs={12} style={{padding: 0}}>
                                         <h1 className='main__section--title'>tecnoservice</h1>
                                     </Col>
                                 </Row>
