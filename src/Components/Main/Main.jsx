@@ -20,7 +20,7 @@ export const Main = () => {
                                     <CgNotes className='icon'/>
                                     <div className='mt-2'>
                                         <h2 className='pasos__container__art--subtitle'>Administracion</h2>
-                                        <p className='pasos__container__art--parrafo'>Soporte tecnico de lunes a viernes para estar en constante comunicacion con nuestros clientes </p>
+                                        <p className='pasos__container__art--parrafo mt-3'>Soporte tecnico de lunes a viernes para estar en constante comunicacion con nuestros clientes. </p>
                                     </div>
                                 </div>
                             </Col>
@@ -29,7 +29,7 @@ export const Main = () => {
                                     <FaTruck className='icon'/>
                                     <div className='mt-2'>
                                         <h2 className='pasos__container__art--subtitle'>Logistica</h2>
-                                        <p className='pasos__container__art--parrafo'>Contamos con flota propia para gestionar retiros y/o entregas de equipos</p>
+                                        <p className='pasos__container__art--parrafo mt-3'>Contamos con flota propia para gestionar retiros y/o entregas de equipos.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -40,7 +40,7 @@ export const Main = () => {
                                 <GiAutoRepair className='icon'/>
                                     <div className='mt-2'>
                                         <h2 className='pasos__container__art--subtitle'>Laboratorio</h2>
-                                        <p className='pasos__container__art--parrafo'>Taller tecnico para gestionar todo tipo de reparaciones, tanto linea marron como linea blanca</p>
+                                        <p className='pasos__container__art--parrafo mt-3'>Taller tecnico para gestionar todo tipo de reparaciones, tanto linea marron como linea blanca.</p>
                                     </div>
                                 </div>                            
                             </Col>
@@ -49,7 +49,7 @@ export const Main = () => {
                                     <MdCall className='icon'/>
                                     <div className='mt-2'>
                                         <h2 className='pasos__container__art--subtitle'>Compañias</h2>
-                                        <p className='pasos__container__art--parrafo'>Linea exclusiva para mantener el constante tacto con las Compañias aseguradoras</p>
+                                        <p className='pasos__container__art--parrafo mt-3'>Linea exclusiva para mantener el constante contacto con las Compañias aseguradoras.</p>
                                     </div>
                                 </div>    
                             </Col>

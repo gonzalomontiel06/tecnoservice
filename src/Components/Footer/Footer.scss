@@ -24,6 +24,7 @@
                 font-family: 'Roboto', sans-serif;
                 margin-left: 8px;
                 font-size: 18px;
+                font-weight: bold;
 
                 &:hover{
                     color: #bde0fe;
@@ -91,7 +92,7 @@
     }
 }
 
-@media screen and ( min-width: 768px ) {
+@media screen and ( min-width: 768px ) and ( max-width: 990px ) {
 
     #footerSize{
         width: auto;

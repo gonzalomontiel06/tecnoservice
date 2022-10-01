@@ -7,11 +7,19 @@ import { Container } from 'react-bootstrap'
 
 export const Contact = () => {
 
+    const valuesMail = {
+        service: process.env.REACT_APP_SERVICE,
+        template: process.env.REACT_APP_TEMPLATE,
+        key: process.env.REACT_APP_KEY
+    }
+
+    const {service, template, key} = valuesMail
+
     const Toast = Swal.mixin({
         toast: true,
         position: 'top',
         showConfirmButton: false,
-        timer: 1000,
+        timer: 1300,
         timerProgressBar: true,
             didOpen: (toast) => {
                 toast.addEventListener('mouseenter', Swal.stopTimer)
@@ -37,7 +45,7 @@ export const Contact = () => {
 
         // CIFRAR CON VARIABLES DE ENTORNO LAS CREDENCIALES DE EMAILJS
 
-        emailjs.send('service_8rwtrfo', 'template_9ok68mo', {to_name: 'Tecnoservice', from_name: values.correo, message: values.consulta + values.nombre}, '7mMvt3nSQBk1VOJge')
+        emailjs.send(service, template, {to_name: 'Tecnoservice', from_name: values.correo, message: values.consulta + '.' + values.nombre}, key)
         .then((res) => {
             console.log(res)
         })
@@ -54,8 +62,8 @@ export const Contact = () => {
     }
 
     return(
-        <Container>
-            <div id='contacto'>
+        <Container id='contacto'>
+            <div>
                 <div className='container contacto mt-5'>
                     <h3 className='contacto--subtitle'>contactanos</h3>
                     <div className='contacto--line mx-3'></div>
